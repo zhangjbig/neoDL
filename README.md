@@ -32,5 +32,6 @@
     Creat a working directory, e.g.,  ./working
     Put trained model (e.g.,LSTM_model.h5) and neoDL in /working
     Prepare input file in the given format
-    Run neoDL
-
+    Run neoDL:
+    `python neoDL.py -o <path> -i <input> -m <model>`
+    
