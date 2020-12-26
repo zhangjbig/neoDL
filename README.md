@@ -6,10 +6,10 @@
 
 ######  Python packages “keras”, “pandas” and “lifelines” are in need. Before installing “keras” package, make sure other relevant packages “tensorflow”, “numpy”, “scipy” and “matplotlib” are already installed. If not, run the following commands to install the above python packages respectively. The version of “tensorflow” we used is “1.13.0-rcl”.
 
-  pip install tensorflow
-  pip install numpy 
-  pip install scipy
-  pip install matplotlib
+  `pip install tensorflow`
+  `pip install numpy` 
+  `pip install scipy`
+  `pip install matplotlib`
 
 
 
