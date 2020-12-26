@@ -29,5 +29,8 @@
 
 
 #  Running neoDL
-
+    Creat a working directory, e.g.,  ./working
+    Put trained model (e.g.,LSTM_model.h5) and neoDL in /working
+    Prepare input file in the given format
+    Run neoDL
 
