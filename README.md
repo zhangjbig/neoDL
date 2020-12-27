@@ -39,6 +39,6 @@
     -i:  input file (neoantigen intrinsic features)
     -m:  trained DL model (for IDH wild type GBM, LSTM_model.h5)
     
-######Input file
+######  Input file
     Input file is a csv file including sample names(denoted as sample), living days(denoted as days), vital status(denoted as vital, 1 represents for living and 0 represents for dead), mutation numbers(denoted as Num_mutations), neoantigen features and subgroups(denoted as feat, 1 and 2 represent for two subgroups respectively). 
     
