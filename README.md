@@ -40,5 +40,8 @@
     -m:  trained DL model (for IDH wild type GBM, LSTM_model.h5)
     
 ######  Input file
-    Input file is a csv file including sample names(denoted as sample), living days(denoted as days), vital status(denoted as vital, 1 represents for living and 0 represents for dead), mutation numbers(denoted as Num_mutations), neoantigen features and subgroups(denoted as feat, 1 and 2 represent for two subgroups respectively). 
+  Input file is a csv file including sample names(denoted as sample), living days(denoted as days), vital status(denoted as vital, 1 represents for living and 0 represents for dead), mutation numbers(denoted as Num_mutations), neoantigen features and subgroups obtained from k-means(denoted as feat, 1 and 2 represent for two subgroups respectively). 
+  
+######  Output file
+  The output includes cluster results, p-values from survival analysis and survival analysis plots. Cluster results will be written into the input csv file as an independent column, two groups are denoted as 0 and 1 respectively. Those files will be saved into a folder named “test_cluster_result”. P-value from survival analysis will be a separate output csv file, including p-values of all tests. Counts which p-value lower than 0.05 will also be output in the last row. Survival analysis plots will be output as png files, and saved in a folder named “surv_pics”.
     
