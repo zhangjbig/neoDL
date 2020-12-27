@@ -44,5 +44,5 @@
   
   
 ######  Output file
-  The output includes cluster results, p-values from survival analysis and survival analysis plots. Cluster results will be written into the input csv file as an independent column, two groups are denoted as 0 and 1 respectively. Those files will be saved into a folder named “testnresult”. Survival analysis plots will be output as png files, and saved in a file named “surv_fig”. P-value will be directly output in the command window. 
+  The output includes cluster results, p-values from survival analysis and survival analysis plots. Cluster results will be written into the input csv file as an extra column, two groups are denoted as 0 and 1 respectively. Those files will be saved into a folder named “testnresult”. Survival analysis plots will be output as png files, and saved in a file named “surv_fig”. P-value will be directly output in the command window. 
     
