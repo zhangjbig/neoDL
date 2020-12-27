@@ -34,4 +34,8 @@
     Prepare input file in the given format
     Run neoDL:
     `python neoDL.py -o <path> -i <input> -m <model>`
+######  Parameters:
+    -o:  output directory
+    -i:  input file (neoantigen intrinsic features)
+    -m:  trained DL model (for IDH wild type GBM, LSTM_model.h5)
     
