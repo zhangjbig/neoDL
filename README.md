@@ -1,6 +1,6 @@
 #  neoDL
 
-  This is to run neoantigen intrinsic feature-based deep learning model (`neoDL`) for identify IDH wild type GBMs with better prognosis who will most likely benefit from neoantigen based personalized immunetherapy. neoDL is built with three hidden layers including two LSTM layers and one fully connected layers, each layer containing 128, 32 and 8 nodes, respectively. sigmoid function was chosen as neuron activation function for fully connected layers, MSE as the loss function and Adam as the iterative optimizer. The maximum number of iterations was set as 1000. The initial connection weights and biases of each layer were randomly generated, and end up reaching stable parameters through training iterations.
+  This is to run neoantigen intrinsic feature-based deep learning model (`neoDL`) for identifying IDH wild type GBMs with better prognosis who will most likely benefit from neoantigen based personalized immunetherapy. neoDL is built with three hidden layers including two LSTM layers and one fully connected layers, each layer containing 128, 32 and 8 nodes, respectively. sigmoid function was chosen as neuron activation function for fully connected layers, MSE as the loss function and Adam as the iterative optimizer. The maximum number of iterations was set as 1000. The initial connection weights and biases of each layer were randomly generated, and end up reaching stable parameters through training iterations.
 
 #  Installation
 
