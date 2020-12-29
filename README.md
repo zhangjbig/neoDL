@@ -27,6 +27,15 @@
 
     `pip install lifelines`
 
+#  Training neoDL
+  LOOCV is adopted to train neoDL. Specifically, the training data was separated into two sections randomly with proportion of training and testing sets as 6 to 4. The training set was used to train the model to determine the unknown parameters, while the test set was used to validate the effect of the predicted parameters. To obtain the optimal model, the above process was carried out 300 times. Kaplan-Meier survival analysis was operated each time to see if the model can divide the samples into two groups with a statistically significant survival difference. Only groups with P-value lower than or equal to the threshold of 0.05 were regarded as statistically significant. Among 300 times trial, the more significant stratifications, the more stable our model is.
+    Train neoDL
+    `python train_model.py -o <path> -i <input>`
+######  Parameters:
+    -o: output
+    -i: input file (neoantigen intrinsic feature)
+  
+    
 
 #  Running neoDL
     Creat a working directory, e.g.,  ./working
