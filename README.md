@@ -34,7 +34,7 @@
     `python train_model.py -o <path> -i <input>`
     
 ######  Parameters:
-    -o: output
+    -o: output directory
     -i: input file (neoantigen intrinsic feature)
   
     
@@ -51,7 +51,7 @@
     -m:  trained DL model (for IDH wild type GBM, LSTM_model.h5)
     
 ######  Input file
-  Input file (neoantigen intrinsic feature) is a csv file, in which each row is a sample, and columns consist of sample names(denoted as sample), living days(denoted as days), vital status(denoted as vital, 1 represents for living and 0 represents for dead), mutation numbers(denoted as Num_mutations), and neoantigen intrinsic features. A sample of input file can be seen neoDL/intrinsicFeatures/Pri_cohort_189features.csv. 
+  Input file (neoantigen intrinsic feature) is a csv file, in which each row is a sample, and columns consist of sample names(denoted as sample), living days(denoted as days), vital status(denoted as vital, 1 represents for living and 0 represents for dead), mutation numbers(denoted as Num_mutations), and neoantigen intrinsic features. 
   
   
 ######  Output file
