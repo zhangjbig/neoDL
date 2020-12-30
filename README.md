@@ -1,6 +1,6 @@
 #  neoDL
 
-  This is to run neoantigen intrinsic feature-based deep learning model (`neoDL`) for identifying IDH wild type GBMs with better prognosis who will most likely benefit from neoantigen based personalized immunetherapy. neoDL is built with three hidden layers including two LSTM layers and one fully connected layers, each layer containing 128, 32 and 8 nodes, respectively. sigmoid function was chosen as neuron activation function for fully connected layers, MSE as the loss function and Adam as the iterative optimizer. The maximum number of iterations was set as 1000. The initial connection weights and biases of each layer were randomly generated, and end up reaching stable parameters through training iterations.
+  This is to run neoantigen intrinsic feature-based deep learning model (`neoDL`) for identifying IDH wild type GBMs with better prognosis who will most likely benefit from neoantigen based personalized immunetherapy. neoDL is built with three hidden layers including two LSTM layers and one fully connected layers, each layer containing 128, 32 and 8 nodes, respectively. sigmoid function was chosen as neuron activation function for fully connected layers, MSE as the loss function and Adam as the iterative optimizer. The maximum number of iterations was set as 1000. The initial connection weights and biases of each layer were randomly generated, and end up reaching stable parameters through training iterations. 
 
 #  Installation
 
@@ -57,3 +57,6 @@
 ######  Output file
   The output includes cluster results, p-values from survival analysis and survival analysis plots. Cluster results will be written into the input csv file as an extra column, two groups are denoted as 0 and 1 respectively. Those files will be saved into a folder named “testnresult”. Survival analysis plots will be output as png files, and saved in a file named “surv_fig”. P-value will be directly output in the command window. 
     
+#  Citation
+  Please cite 'neoDL: A novel neoantigen intrinsic feature-based deep learning model identifies IDH wild-type glioblastomas with the longest survival' (doi: https://doi.org/10.1101/2020.12.28.424562)
+  
