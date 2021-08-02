@@ -58,5 +58,5 @@
   The output includes cluster results, p-values from survival analysis and survival analysis plots. Cluster results will be written into the input csv file as an extra column, two groups are denoted as 0 and 1 respectively. Those files will be saved into a folder named “testnresult”. Survival analysis plots will be output as png files, and saved in a file named “surv_fig”. P-value will be directly output in the command window. 
     
 #  Citation
-  Please cite our preprint paper in BioRxiv entitled as 'neoDL: A novel neoantigen intrinsic feature-based deep learning model identifies IDH wild-type glioblastomas with the longest survival' (doi: https://doi.org/10.1101/2020.12.28.424562)
+  Please cite our preprint paper in BioRxiv entitled as 'Sun, T., He, Y., Li, W., et al. neoDL: a novel neoantigen intrinsic feature-based deep learning model identifies IDH wild-type glioblastomas with the longest survival. BMC Bioinformatics, 2021.22(1): 382. doi:10.1186/s12859-021-04301-6'.
   
